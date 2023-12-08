@@ -35,6 +35,7 @@ abstract class House {
         this.door = door;
         this.key = key;
     }
+    
      abstract openDoor(key: Key): void;
 
     comeIn(person: Person): void {
